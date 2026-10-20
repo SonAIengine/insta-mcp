@@ -4,12 +4,13 @@ version = "0.1.0"
 description = "Instagram MCP server powered by instagrapi"
 requires-python = ">=3.11"
 dependencies = [
-    "instagrapi>=2.1.0",
+    "instagrapi>=3.1.0",
     "fastmcp>=2.0.0",
 ]
 
 [project.scripts]
 insta-mcp = "insta_mcp:main"
+insta-accounts = "insta_mcp.accounts:main"
 
 [build-system]
 requires = ["hatchling"]
